@@ -1,3 +1,11 @@
+/*
+   Swap plugin by DarthChungo
+
+   MIT License
+   Copyright (c) 2020 Antonio de Haro
+
+*/
+
 package me.DarthChungo.Swap;
 
 import org.apache.commons.lang.math.NumberUtils;
@@ -25,7 +33,7 @@ public class SwapCommand implements TabExecutor {
             this.plugin.sg.StopGame(sender);
 
         } else if(args.length == 2 && args[0].equals("start") && NumberUtils.isNumber(args[1])) {
-            this.plugin.sg.StartGame(new ArrayList<Player>(this.plugin.getServer().getOnlinePlayers()), Math.abs(Integer.parseInt(args[1])), sender);
+            this.plugin.sg.StartGame(new ArrayList<>(this.plugin.getServer().getOnlinePlayers()), Math.abs(Integer.parseInt(args[1])), sender);
 
         } else {
             sender.sendMessage(ChatColor.RED + "Invalid usage: /swap <start|stop> <seconds>");

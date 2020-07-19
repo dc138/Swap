@@ -1,3 +1,11 @@
+/*
+   Swap plugin by DarthChungo
+
+   MIT License
+   Copyright (c) 2020 Antonio de Haro
+
+*/
+
 package me.DarthChungo.Swap;
 
 import org.bukkit.ChatColor;
@@ -11,7 +19,7 @@ public class SwapGame {
     private final Swap plugin;
 
     public boolean running = false;
-    public ArrayList<Player> players = new ArrayList<Player>();
+    public ArrayList<Player> players = new ArrayList<>();
 
     public SwapGame(Swap p) {
         this.plugin = p;
