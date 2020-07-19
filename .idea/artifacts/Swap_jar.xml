@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Swap:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Swap_jar</output-path>
+    <root id="archive" name="Swap.jar">
+      <element id="module-output" name="Swap" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

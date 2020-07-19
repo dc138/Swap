@@ -1,5 +1,5 @@
 name: Swap
-version: 1.0
+version: 2.0
 main: me.DarthChungo.Swap.Swap
 description: "Easily play death swap with your friends."
 api-version: 1.15
