@@ -1,0 +1,19 @@
+name: Swap
+version: 1.0
+main: me.DarthChungo.Swap.Swap
+description: "Easily play death swap with your friends."
+api-version: 1.15
+load: STARTUP
+author: "DarthChungo"
+
+commands:
+  swap:
+    description: "Start, stop or configure the Swap plugin."
+    usage: "/<command> <start|stop> <seconds>"
+    permission: swap.manage
+    permission-message: "§cYou dont have permission to use this command."
+
+permissions:
+  swap.manage:
+    description: "Allows you to use the /swap command"
+    default: op
